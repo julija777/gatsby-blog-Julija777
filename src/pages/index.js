@@ -19,7 +19,7 @@ export default function Index({ data: { allPosts, site, blog } }) {
           title={heroPost.title}
           coverImage={heroPost.coverImage}
           date={heroPost.date}
-          author={heroPost.author}
+          author={"Julija Stepanova"}
           slug={heroPost.slug}
           excerpt={heroPost.excerpt}
         />
